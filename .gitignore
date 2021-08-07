@@ -1,0 +1,13 @@
+# Sketch and Figma design
+*.sketch
+*.fig
+
+# XD upload if you convert the design file
+*.xd
+
+# DS_Store
+.DS_Store
+.prettierignore
+
+/3-column-preview-card-component-sketch
+/design
