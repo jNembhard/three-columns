@@ -43,8 +43,15 @@ body {
   border-color: hsl(0, 0%, 95%);
 }
 
+@media (max-width: 896px) {
+  .card {
+    margin-left: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   .card {
+    margin-left: inherit;
     flex-direction: column;
     margin-top: 88px;
     height: 1590px;
