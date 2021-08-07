@@ -22,14 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-**Note: Update later**
+![Three Columns](images/threecols.jpeg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [threecols-jason](https://threecols-jason.netlify.app)
 
 ## My process
 
@@ -38,10 +36,13 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Adobe XD (Framing)
 
 ### What I learned
 
-**Note: Update Later**
+I was able to vastly speed up my creation process by using framing tools to map out the design before build. I usuallt have been focusing on improving my web design ski directly, but it is important to plan the process out before hand. This allows me to see everything before a design to see if I a have a good plan to execute.
+
+I also found it is better to design for the smallest width of mobile first and then increase the size gradually instead of starting at 768px. This means starting with around a max-width of 375px and then increasing the width. This ensures that the layout will look good on all screen sizes.
 
 ## Author
 
