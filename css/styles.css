@@ -28,19 +28,23 @@ body {
   margin-bottom: 129px;
 }
 
-.card button {
+.card .card__section .button {
   height: 48px;
   width: 146px;
   border-radius: 50px;
   background-color: hsl(0, 0%, 95%);
   margin: 88px 0px 0px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
-.card button:hover {
-  background-color: transparent;
+.card .card__section .button:hover {
   color: hsl(0, 0%, 95%);
+  border-style: solid;
   border-color: hsl(0, 0%, 95%);
+  background-color: transparent;
 }
 
 @media (max-width: 896px) {
@@ -76,6 +80,7 @@ body {
   margin-right: 113px;
   margin-left: 48px;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .card .card__section p {
@@ -111,7 +116,7 @@ body {
     line-height: 30px;
   }
 
-  .card .card__section button {
+  .card .card__section .button {
     margin: 28px 146px 0px 40px;
   }
 }
